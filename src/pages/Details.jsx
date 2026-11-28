@@ -22,7 +22,7 @@ export default function Details() {
   return (
     <>
       <div className="container-custom detail-layout">
-        <div>
+        <div className="detail-main">
           <Link className="text-link mb-3" to="/stays"><ArrowLeft size={17} /> Back to all stays</Link>
           <div className="detail-gallery">
             <img src={stay.gallery[0]} alt={`Exterior of ${stay.name}`} />
